@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/giphy_s (1).gif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rolagem.css">
+   
+    
+    <title>notgomess</title>
+</head>
+<body>
+  
+  <main class="cartao">
+    <div class="minhas-informacoes">
+      <img src="img/programming-animate.svg" alt="foto de perfil" />
+      <h1 class="nome">@notgomess</h1>
+      
+      <div class="switch" onclick="toggleMode()">
+        <button></button><span></span>
+      </div>
+      
+    </div>
+
+    <div class="conteudo">
+      <ul class="abas">
+        <li class="aba selecionado" id="sobre-mim">
+          <img src="img/dj.gif" alt="ícone de sobre mim" />
+        </li>
+        <li class="aba" id="minhas-redes">
+          <img src="img/giphy.gif" alt="ícone de redes sociais" />
+        </li>
+      </ul>
+
+      <div class="informacoes-abas">
+        <div class="informacao selecionado" id="informacao-sobre-mim">
+          <h3 class="sub-titulo">Sobre</h3>
+
+          <div class="descricao">
+            <p>Olá, me chamo Pablo Gomes!</p>
+            <p>
+              Tenho 21 anos e sou estudante do 6 semestre de ciência da computação do IFRS. Atualmente, estou explorando o mundo da programação.
+            </p>
+            
+          </div>
+          
+        </div>
+
+
+        <div class="informacao" id="informacao-minhas-redes">
+          <h3 class="sub-titulo">Minhas redes</h3>
+
+          <ul class="redes-sociais">
+              <li>
+                  <a href="https://www.instagram.com/notgomess/" target="_blank" class="curriculo">Portifolio</a>
+              </li>
+              <li>
+                  <a href="https://docs.google.com/document/d/1ZTyor1EQ9HuaFGR_oBRVSa9oSAuAaQVOvu8lRWB7hR4/edit?usp=sharing" target="_blank" class="linkedin">Curriculo</a>
+              </li>
+              <li>
+                  <a href="" target="_blank" class="github">img</a>
+              </li>
+             
+          </ul>
+            <div class="social-links">
+              <a href="https://github.com/PabloGomesz" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+              <a href="https://www.instagram.com/notgomess/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="https://twitter.com/notgomess" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="https://www.linkedin.com/in/pablo-gomes-92978224a/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+        </div>
+      </div>
+  </div>
+  
+</main>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
