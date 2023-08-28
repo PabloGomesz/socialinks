@@ -1,7 +1,7 @@
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
-Programa desenvolvido por PabloGomesz com o intuito de botar em pratica seus conhecimentos.<br/>
+Programa desenvolvido por PabloGomesz com o intuito de botar em pratica meus conhecimentos.<br/>
 </p>
 
 <p align="center">
