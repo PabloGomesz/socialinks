@@ -41,8 +41,12 @@ body{
     align-items: center;
     min-height: 100vh;
     padding: 30px;
+    
 }
-
+.conteudo{
+    width: 100%;
+    max-width: 588px;
+}
 img{
 width: 180px;
 }
