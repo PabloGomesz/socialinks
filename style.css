@@ -42,6 +42,7 @@ body{
     min-height: 100vh;
     padding: 30px;
     
+    
 }
 .conteudo{
     width: 100%;
@@ -227,15 +228,19 @@ width: 180px;
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
+    animation: slide-back 0.2s;
     
 
    
 }
 
+.switch button:hover{
+    outline: 8px solid rgba(255, 255, 255, 0.2);
+}
+
 
 .light .switch button{
-    right: 0;
-    left: initial;
+    animation: slide-in 0.4s forwards;
 }
 .switch span{
     display: block;
@@ -247,3 +252,19 @@ width: 180px;
     border-radius: 9999px;
 }
 
+@keyframes slide-in{
+    from {
+        left: 0;
+    }
+    to{
+        left: 50%;
+    }
+}
+
+@keyframes slide-back{
+    from{
+        left: 50%;
+    }to{
+        left: 0;
+    }
+}
